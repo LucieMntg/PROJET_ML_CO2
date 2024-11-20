@@ -8,7 +8,7 @@ L’objectif principal de ce projet est de développer un modèle de prédiction
 
 Destiné aux constructeurs automobiles, le CO2 CALCULATOR est un modèle de régression capable de prédire l'émission de CO2 de véhicules à partir de caractéristiques renseignées. Il est accessible [ici](https://co2-calculator-project.streamlit.app/), dans la rubrique 'Démonstration'.
 
-Les étapes principales du projet sont : l’acquisition et la préparation de données (features engineering et pré-processing), la datavisualisation, la recherche, la conception et l'entraînement de six modèles de régression en Machine Learning, la sélection de trois modèles pour optimisation ainsi que l’évaluation approfondie de leur performance à l'aide de plusieurs métriques et pour finir, le développement du "CO2 CALCULATOR" avec le meilleur modèle.
+Les étapes principales du projet sont : l’acquisition et la préparation de données, la datavisualisation, le features engineering et pré-processing, la recherche, la conception et l'entraînement de six modèles de régression en Machine Learning, la sélection de trois modèles pour optimisation ainsi que l’évaluation approfondie de leur performance à l'aide de plusieurs métriques et pour finir, le développement du "CO2 CALCULATOR" avec le meilleur modèle.
 
 
 
@@ -28,69 +28,37 @@ Sous le mentorat d'Eliott Douieb de DataScientest.
 
 
 
+
 ## Rapport du projet
 
-Le rapport complet de notre projet est disponible dans le dossier 'Rapport' de ce répertoire GitHub.
+Le rapport complet de notre projet, au format PDF, est disponible dans le dossier 'Rapport' de ce répertoire GitHub.
 
 
 
 
 ## Organisation du répertoire
+    
+    ├───.streamlit                                                <- Code renfermant le thème graphique de l'application Streamlit
+    │
+    ├───Dataset                                                   <- Dataset avec les données brutes non transformées
+    │
+    ├───Images                                                    <- Visuels utilisés dans l'application Streamlit
+    │
+    ├───Modèles                                                   <- Modèles entraînés et prédictions
+    │
+    ├───Notebooks                                                 <- Jupyter notebooks contenant le code de préprocessing des données et de modélisation
+    │       CODE_PROJET_CO2_EXPLORATION_DONNEES.ipynb             <- Exploration des données et visualisation
+    │       CODE_PROJET_CO2_PREPROCESSING_MODELISATION.ipynb      <- Feature engineering, pré-processing et modélisation
+    │
+    ├───Rapport                                                   <- Rapport détaillé du projet au format PDF 
+    │
+    │   .gitignore                                                <- Fichier Gitignore pour ignorer certains fichiers/dossiers
+    │   LICENSE.txt                                               <- Licence du projet
+    │   README.md                                                 <- Fichier README avec présentation du projet et lien de l'application streamlit
+    │   requirements.txt                                          <- Liste des dépendances Python nécessaires pour reproduire l'environnement
+    │   streamlit_project_code_final.py                           <- Code source pour l'application Streamlit
 
-    |   config.toml
-    |   et_regressor
-    |   LICENSE.txt
-    |   model_et_regressor
-    |   model_knn
-    |   model_lr
-    |   model_regressor
-    |   model_rf_regressor
-    |   model_xgb_regressor
-    |   README.md
-    |   requirements.txt
-    |   streamlit_project_code.py
-    |   X_train
-    |   X_train_concat
-    |
-    +---.devcontainer
-    |       devcontainer.json
-    |
-    +---.streamlit
-    |       config.toml
-    |
-    +---Autres
-    |       X_train
-    |       X_train_concat
-    |
-    +---Dataset
-    |       ADEME-CarLabelling-2023-local.csv
-    |       ADEME-CarLabelling-2023-local.csv5dwm75ls.part
-    |       ADEME-CarLabelling-2023-local.csvdj5fbyos.part
-    |       ADEME-CarLabelling-2023-local.csvlpklo94a.part
-    |       ADEME-CarLabelling-2023-local.csvq52pcmfh.part
-    |
-    +---Images
-    |       Entonnoir.png
-    |       IF_ETRegressor.jpg
-    |       IF_RFRegressor.jpg
-    |       IF_XGBRegressor.jpg
-    |       Image_conclu_gif.gif
-    |       Image_dataset_gif.gif
-    |       Image_dataviz_gif.gif
-    |       Image_demo_gif.gif
-    |       Image_features_gif.gif
-    |       Image_intro_gif.gif
-    |       Image_lazyp.jpg
-    |       Image_model_gif.gif
-    |       Image_transition_2_gif.gif
-    |       Image_transition_gif.gif
-    |       logo_co2_calculator.png
-    |       shape_2_pre-pross_chang_type_gif.gif
-    |       Tableau_top_features.jpg
-    |
-    \---Notebooks
-        |   CODE_PROJET_CO2_EXPLORATION_DONNEES.ipynb
-        |   CODE_PROJET_CO2_PREPROCESSING_MODELISATION.ipynb
+
 
 
 

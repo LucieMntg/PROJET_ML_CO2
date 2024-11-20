@@ -1,6 +1,5 @@
 # Ignorer ces dossiers
 .ipynb_checkpoints/
-.streamlit/
 __pycache__/
 
 # Ignorer les fichiers .part
