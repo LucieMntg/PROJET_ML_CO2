@@ -86,5 +86,3 @@ Sous le mentorat d'Eliott Douieb de DataScientest.
 
 
 
-
-

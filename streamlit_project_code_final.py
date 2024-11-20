@@ -1194,5 +1194,3 @@ if page == pages[5] :
       unsafe_allow_html=True
    )
 
-
-
