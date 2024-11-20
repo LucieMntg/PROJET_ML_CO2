@@ -10,10 +10,9 @@ Destiné aux constructeurs automobiles, le CO2 CALCULATOR est un modèle de rég
 
 Les étapes principales du projet sont : l’acquisition et la préparation de données (features engineering et pré-processing), la datavisualisation, la recherche, la conception et l'entraînement de six modèles de régression en Machine Learning, la sélection de trois modèles pour optimisation ainsi que l’évaluation approfondie de leur performance à l'aide de plusieurs métriques et pour finir, le développement du "CO2 CALCULATOR" avec le meilleur modèle.
 
-Le rapport complet de notre projet est disponible dans le dossier 'Rapport' de ce répertoire GitHub.
 
 
-
+---
 Ce projet a été développé en novembre 2024 par l'équipe suivante :
 
 Ndèye Oumy DIAGNE ([LinkedIn](https://www.linkedin.com/in/ndeyeoumy-diagne/)) ;
@@ -24,6 +23,14 @@ Lucie MONTAGNE ([LinkedIn](https://www.linkedin.com/in/lucie-montagne-ab93b465/)
 
 
 Sous le mentorat d'Eliott Douieb de DataScientest.
+
+
+
+
+
+## Rapport du projet
+
+Le rapport complet de notre projet est disponible dans le dossier 'Rapport' de ce répertoire GitHub.
 
 
 
