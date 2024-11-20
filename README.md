@@ -6,7 +6,7 @@ Ce répertoire contient le code de notre projet développé pendant notre format
 
 L’objectif principal de ce projet est de développer un modèle de prédiction d'émission de CO2 des véhicules en utilisant les techniques de Machine Learning, sur la base de données officielles françaises fournies par le site [Car Labelling](https://carlabelling.ademe.fr/) de l'ADEME, en provenance des services d'homologation des constructeurs. 
 
-Destiné aux constructeurs automobiles, le CO2 CALCULATOR est un modèle de régression capable de prédire l'émission de CO2 de véhicules à partir de caractéristiques renseignées. Il est accessible [ici](https://projet-co2-datascientest-2024.streamlit.app/), dans la rubrique 'Démonstration'.
+Destiné aux constructeurs automobiles, le CO2 CALCULATOR est un modèle de régression capable de prédire l'émission de CO2 de véhicules à partir de caractéristiques renseignées. Il est accessible [ici](https://co2-calculator-project.streamlit.app/), dans la rubrique 'Démonstration'.
 
 Les étapes principales du projet sont : l’acquisition et la préparation de données (features engineering et pré-processing), la datavisualisation, la recherche, la conception et l'entraînement de six modèles de régression en Machine Learning, la sélection de trois modèles pour optimisation ainsi que l’évaluation approfondie de leur performance à l'aide de plusieurs métriques et pour finir, le développement du "CO2 CALCULATOR" avec le meilleur modèle.
 
@@ -16,9 +16,12 @@ Le rapport complet de notre projet est disponible dans le dossier 'Rapport' de c
 
 Ce projet a été développé en novembre 2024 par l'équipe suivante :
 
-Ndèye Oumy DIAGNE (LinkedIn) ;
-Justine GAUTERO (LinkedIn) ;
-Lucie MONTAGNE (LinkedIn) ;
+Ndèye Oumy DIAGNE ([LinkedIn](https://www.linkedin.com/in/ndeyeoumy-diagne/)) ;
+
+Justine GAUTERO ([LinkedIn](https://www.linkedin.com/in/justine-gautero-4251aa130/)) ;
+
+Lucie MONTAGNE ([LinkedIn](https://www.linkedin.com/in/lucie-montagne-ab93b465/)) ;
+
 
 Sous le mentorat d'Eliott Douieb de DataScientest.
 
