@@ -36,60 +36,61 @@ Le rapport complet de notre projet est disponible dans le dossier 'Rapport' de c
 
 
 ## Organisation du répertoire
-|   config.toml
-|   et_regressor
-|   LICENSE.txt
-|   model_et_regressor
-|   model_knn
-|   model_lr
-|   model_regressor
-|   model_rf_regressor
-|   model_xgb_regressor
-|   README.md
-|   requirements.txt
-|   streamlit_project_code.py
-|   X_train
-|   X_train_concat
-|
-+---.devcontainer
-|       devcontainer.json
-|
-+---.streamlit
-|       config.toml
-|
-+---Autres
-|       X_train
-|       X_train_concat
-|
-+---Dataset
-|       ADEME-CarLabelling-2023-local.csv
-|       ADEME-CarLabelling-2023-local.csv5dwm75ls.part
-|       ADEME-CarLabelling-2023-local.csvdj5fbyos.part
-|       ADEME-CarLabelling-2023-local.csvlpklo94a.part
-|       ADEME-CarLabelling-2023-local.csvq52pcmfh.part
-|
-+---Images
-|       Entonnoir.png
-|       IF_ETRegressor.jpg
-|       IF_RFRegressor.jpg
-|       IF_XGBRegressor.jpg
-|       Image_conclu_gif.gif
-|       Image_dataset_gif.gif
-|       Image_dataviz_gif.gif
-|       Image_demo_gif.gif
-|       Image_features_gif.gif
-|       Image_intro_gif.gif
-|       Image_lazyp.jpg
-|       Image_model_gif.gif
-|       Image_transition_2_gif.gif
-|       Image_transition_gif.gif
-|       logo_co2_calculator.png
-|       shape_2_pre-pross_chang_type_gif.gif
-|       Tableau_top_features.jpg
-|
-\---Notebooks
-    |   CODE_PROJET_CO2_EXPLORATION_DONNEES.ipynb
-    |   CODE_PROJET_CO2_PREPROCESSING_MODELISATION.ipynb
+
+    |   config.toml
+    |   et_regressor
+    |   LICENSE.txt
+    |   model_et_regressor
+    |   model_knn
+    |   model_lr
+    |   model_regressor
+    |   model_rf_regressor
+    |   model_xgb_regressor
+    |   README.md
+    |   requirements.txt
+    |   streamlit_project_code.py
+    |   X_train
+    |   X_train_concat
+    |
+    +---.devcontainer
+    |       devcontainer.json
+    |
+    +---.streamlit
+    |       config.toml
+    |
+    +---Autres
+    |       X_train
+    |       X_train_concat
+    |
+    +---Dataset
+    |       ADEME-CarLabelling-2023-local.csv
+    |       ADEME-CarLabelling-2023-local.csv5dwm75ls.part
+    |       ADEME-CarLabelling-2023-local.csvdj5fbyos.part
+    |       ADEME-CarLabelling-2023-local.csvlpklo94a.part
+    |       ADEME-CarLabelling-2023-local.csvq52pcmfh.part
+    |
+    +---Images
+    |       Entonnoir.png
+    |       IF_ETRegressor.jpg
+    |       IF_RFRegressor.jpg
+    |       IF_XGBRegressor.jpg
+    |       Image_conclu_gif.gif
+    |       Image_dataset_gif.gif
+    |       Image_dataviz_gif.gif
+    |       Image_demo_gif.gif
+    |       Image_features_gif.gif
+    |       Image_intro_gif.gif
+    |       Image_lazyp.jpg
+    |       Image_model_gif.gif
+    |       Image_transition_2_gif.gif
+    |       Image_transition_gif.gif
+    |       logo_co2_calculator.png
+    |       shape_2_pre-pross_chang_type_gif.gif
+    |       Tableau_top_features.jpg
+    |
+    \---Notebooks
+        |   CODE_PROJET_CO2_EXPLORATION_DONNEES.ipynb
+        |   CODE_PROJET_CO2_PREPROCESSING_MODELISATION.ipynb
 
 
 
